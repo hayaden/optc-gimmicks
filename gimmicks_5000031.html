@@ -1,44 +1,55 @@
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <style>
-  body {
-    background-color: #13514d;
-    color: #f2f2f7;
-    font-family: sans-serif;
-    line-height: 1.7;
-    padding: 2em;
-    font-size: 24px; /* ✅ 추가 */
-  }
-  a {
-    font-size: 24px;
-  }
-  h2 {
-    border-bottom: 1px solid #f2f2f7;
-    padding-bottom: 0.3em;
-    font-size: 28px;  /* ✅ 추가 */
-  }
-  h3 {
-    font-size: 26px;  /* ✅ 추가 */
-    margin-top: 1em;
-  }
-  .icon-line {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    margin-bottom: 4px;
-    font-size: 23px;  /* ✅ 추가 */
-  }
-  .label-initial,
-  .label-preemptive,
-  .label-special,
-  .label-death,
-  .label-interrupt {
-    font-size: 22px;  /* ✅ 추가 */
-  }
-</style>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-color: #13514d;
+      color: #f2f2f7;
+      font-family: sans-serif;
+      line-height: 1.8;
+      padding: 1.5em;
+      font-size: 26px; /* ✅ 본문 기본 폰트 크기 */
+    }
+    a {
+      font-size: 26px;
+    }
+    h2 {
+      border-bottom: 2px solid #f2f2f7;
+      padding-bottom: 0.4em;
+      font-size: 30px;  /* ✅ 레벨 제목 */
+      margin-top: 1.5em;
+    }
+    h3 {
+      font-size: 28px;  /* ✅ 스테이지 제목 */
+      margin-top: 1.2em;
+    }
+    .icon-line {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 6px;
+      font-size: 25px;  /* ✅ 텍스트 + 아이콘 줄 */
+    }
+    .label-initial,
+    .label-preemptive,
+    .label-special,
+    .label-death,
+    .label-interrupt {
+      font-size: 24px;
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-weight: bold;
+      display: inline-block;
+      margin: 0.4em 0;
+    }
+    img {
+      height: 28px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
 <h2>Level: 1-59</h2>
 <h3>Stage 3:</h3>
 <span class="label-preemptive">선제 행동:</span><br>
